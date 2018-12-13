@@ -1,0 +1,7 @@
+First, you can set up a shell alias:
+
+alias python=/usr/local/bin/python2.7
+
+Type that at a prompt, or put it in your ~/.bashrc
+if you want the change to be persistent, and now when you type python it runs your chosen 2.7
+, but when some program on your system tries to run a script with /usr/bin/env python it runs the standard 2.6.
